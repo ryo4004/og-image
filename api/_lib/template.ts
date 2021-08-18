@@ -14,7 +14,7 @@ function getCss(theme: string, fontSize: string) {
         foreground = 'white';
     }
     return `
-    @import url('https://fonts.googleapis.com/css2?family=Open+Sans');
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
     @font-face {
         font-family: 'noto-sans-cjk-jp';
@@ -78,7 +78,7 @@ function getCss(theme: string, fontSize: string) {
     }
     
     .heading {
-        font-family: 'Inter', sans-serif;
+        font-family: 'noto-sans-cjk-jp', 'Inter', sans-serif;
         font-size: ${sanitizeHtml(fontSize)};
         font-style: normal;
         color: ${foreground};
