@@ -78,6 +78,7 @@ function getCss(theme: string, fontSize: string) {
     }
     
     .heading {
+        display: none;
         font-family: 'noto-sans-cjk-jp', 'Inter', sans-serif;
         font-size: ${sanitizeHtml(fontSize)};
         font-style: normal;
