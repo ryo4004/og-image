@@ -24,7 +24,7 @@ function getCss(theme: string, fontSize: string) {
 
     body {
         background: ${background};
-        background-size: 100px 100px;
+        background-image: linear-gradient(160deg, #b7f8db 0%, #50a7c2 100%);
         height: 100vh;
         display: flex;
         text-align: center;
