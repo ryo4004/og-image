@@ -52,8 +52,8 @@ function getCss(theme: string, fontSize: string) {
     }
 
     .logo-wrapper .emoji {
-        width: 250px;
-        height: 250px;
+        width: 768px;
+        height: 768px;
     }
 
     .logo {
