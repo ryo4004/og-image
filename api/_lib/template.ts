@@ -23,8 +23,8 @@ function getCss() {
     }
 
     .logo-wrapper .emoji {
-        width: 768px;
-        height: 768px;
+        width: 512px;
+        height: 512px;
     }`;
 }
 
